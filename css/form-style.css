@@ -1,0 +1,172 @@
+/*By Muneeb khalid 19065813*/
+
+/*This stylesheet is used to set the layout for the 
+2 pages. This is done in a single stylesheet. */
+li {list-style-type: none;
+/*font size is set to 16pt*/
+font-size: 16pt;
+}
+
+/*uses class name*/
+/*everthing in the grey are without a div class*/
+.mail {
+/*everything is aligned to the left by 100px*/
+margin-left: 100px;
+/*has a 10px gap from the top margin*/
+margin-top: 10px;
+/*also has 10 px gap from top paddding*/
+padding-top: 10px;
+/*has 80px gap from the bottom padding*/
+padding-bottom: 80px;
+/*width of the grey space is 100px*/
+width: 1000px;
+/*background colour is grey*/
+background : #eeeeee;
+/*border around space is in solid silver*/
+border: 1px soild silver;
+}
+
+/*grey space in second page*/
+/*uses class name*/
+/*everthing in the grey are without a div class*/
+.maila {
+/*everything is aligned to the left by 100px*/
+margin-left: 100px;
+/*has a 10px gap from the top margin*/
+margin-top: 10px;
+/*also has 10 px gap from top paddding*/
+padding-top: 10px;
+/*has 250px gap from the bottom padding*/
+padding-bottom: 250px;
+/*width of the grey space is 100px*/
+width: 1000px;
+/*background colour is grey*/
+background : #eeeeee;
+/*border around space is in solid silver*/
+border: 1px soild silver;
+}
+
+/*header displayed at top of screen*/
+h1 {
+/*A line is set under the header and is solid black */
+  border-bottom: 3px solid black;
+/*the font style is sans-serif*/ 
+  font-family: sans-serif;	
+}
+
+/*below the line where it says debit/credit card*/
+ h2 {
+/*Sets the h2 tags alignment to the left by 100px*/
+margin-left: 100px;
+/*the font style is sans-serif*/
+font-family: sans-serif;	
+}
+
+/*this is the mastercard images style*/
+/*uses class name of image*/
+img {
+display: block;
+/*it's displayed 320px from the left*/
+margin-left: 320px;
+/*it's shifted up by -55px*/
+margin-top: -55px;
+/*width of the image is 60px*/
+width: 60px;
+/*height of the image is 40px*/
+height: 40px;
+}
+
+/*used in second page before outputting the number*/
+ h3 {
+/*h3 tag is shifted 400px from left*/
+margin-left: 400px;
+/*it's shifted up by -30px*/
+margin-top: -30px;
+/*the font style is sans-serif*/
+font-family: sans-serif;	
+}
+
+/*all the inputs are styled here*/
+input {
+/*font size is 15pt*/
+font-size: 15pt; 
+/*its aligned to the left*/
+text-align: left;
+}
+
+/*text displayed next to each input*/
+label {
+/*the font style is sans-serif*/
+font-family: sans-serif;	
+/*labels are all in bold*/
+font-weight: bold;
+/*width of the labels are 120px*/
+  width: 120px;
+  /*its the aligned to the left*/
+  text-align: left;
+  display: inline-block;
+  float:left;
+  /*aligns 20px left of margin*/
+  margin-left: 20px;
+}​
+
+input:focus, textarea:focus{
+background-color: lightyellow;
+}
+
+ul{
+padding-inline-start: 0px;
+}
+
+/*text below the security code input*/
+p{
+/*aligned to left of margin by 140px*/
+margin-left:140px;
+/*the font style is sans-serif*/
+font-family: sans-serif;
+
+}
+
+
+/*this is the card number being outputed to the user 
+on the second page*/
+/*uses class name*/
+.echo{
+/*aligned to the left by 300px*/
+margin-left: 300px;
+/*shifted upwards by -40px*/
+margin-top: -40px;
+/*the font style is sans-serif*/
+font-family: sans-serif;
+ 
+}
+
+/*shortens the input for secuirty code to 80px*/
+/*uses class id for the security code*/
+#scode{
+width:80px;
+}
+
+/*this is the submit button*/
+input#rq {
+/*text size is 12pt*/	
+font-size: 12pt;
+/*aligned to the left of the margin by 140px*/
+margin-left:140px;
+/*background colour is red*/
+background-color:#ad0101;
+/*border around button is also red*/
+border: 1px solid #ad0101;;
+}
+
+/*uses class id for button*/
+/*text inside the button*/
+#rq {
+/*colour is set to white*/
+color: #ffffff;
+/*font size is 10pt*/
+font-size: 10pt;
+/*aligned to the left of the marging by 30px*/
+margin-left:30px;
+}
+
